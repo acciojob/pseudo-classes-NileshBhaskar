@@ -3,7 +3,7 @@
 	--page-background-color: rgb(135,206,235);
 }
 
-body{
+html{
 	background-color: var(--page-background-color);
 }
 
