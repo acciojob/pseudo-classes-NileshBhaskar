@@ -7,19 +7,19 @@ body{
 	background-color: var(--page-background-color);
 }
 
+
 p:first-child {
-    background-color: black;
-    color: white;
-}
+      color: white;
+      background-color: black;
+    }
 
-p:nth-child(2) {
-    /* You can add any other desired styles here */
-}
+    p:nth-child(2) {
+      color: inherit; /* Standard text color */
+    }
 
-p:last-child {
-    /* You can add any other desired styles here */
-	color:red;
-}
+    p:last-child {
+      color: red;
+    }
 
 li{
 	background-color:grey;
